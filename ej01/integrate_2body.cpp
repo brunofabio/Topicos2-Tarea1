@@ -103,9 +103,9 @@ int main(int argc, char *argv[])
     //y0[2]=0;
     //y0[3]=0;
     //y0[4]=1.05;
-    y0[2]=0.5;
-    y0[3]=0.0;
-    y0[4]=0.5;
+    y0[2]=1.0;
+    y0[3]=0.5;
+    y0[4]=1.05;
     v_copy(yout2, y0);
     v_copy(yout4, y0);
     v_copy(youte, y0);
