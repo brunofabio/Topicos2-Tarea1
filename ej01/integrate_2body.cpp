@@ -100,9 +100,12 @@ int main(int argc, char *argv[])
     int count=0;
     int cmax=20;
     y0[1]=1.0;
-    y0[2]=0;
-    y0[3]=0;
-    y0[4]=1.05;
+    //y0[2]=0;
+    //y0[3]=0;
+    //y0[4]=1.05;
+    y0[2]=0.5;
+    y0[3]=0.0;
+    y0[4]=0.5;
     v_copy(yout2, y0);
     v_copy(yout4, y0);
     v_copy(youte, y0);
